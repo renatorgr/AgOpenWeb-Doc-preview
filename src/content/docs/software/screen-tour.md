@@ -61,6 +61,7 @@ Each button opens a panel. From the top:
 
 1. **File menu.** Language, App Settings (units, on-screen keyboard), Hotkeys,
    the Simulator, the Log Viewer, Help, About and **Bug Report Dump**. See
+   [Language, app settings and hotkeys](/software/app-settings/) and
    [Charts, logs and bug reports](/software/charts-logs-bug-reports/).
 2. **Screen & Alerts.** What is drawn on the map (grid, field texture, extra
    guide lines, aerial imagery), the day or night theme, the light bar, the
@@ -70,15 +71,17 @@ Each button opens a panel. From the top:
    heading and distance from the line. See
    [Charts](/software/charts-logs-bug-reports/#charts).
 4. **Vehicle & Tool.** Choose, create and configure your vehicle and tool
-   profiles.
-5. **AutoSteer.** The steering settings.
+   profiles. See [Profiles](/software/setup/profiles/).
+5. **AutoSteer.** The steering settings. See
+   [AutoSteer settings](/software/setup/autosteer/).
 6. **Field Operations.** Open or create a field, start or resume a job, close
-   the field.
+   the field. See [Fields and boundaries](/software/fields-and-boundaries/).
 7. **Field Tools.** The Field Builder, boundaries, recorded paths, importing
    tracks from another field, deleting the applied area, and the GPS offset
-   fix. See [Fields and boundaries](/software/fields-and-boundaries/).
+   fix. See [Fields and boundaries](/software/fields-and-boundaries/) and
+   [More field tools](/software/more-field-tools/).
 8. **Network IO.** Your modules on the network, and the RTK corrections
-   (NTRIP).
+   (NTRIP). See [Network IO](/software/connect/network-io/).
 
 ## Guidance switches (right)
 

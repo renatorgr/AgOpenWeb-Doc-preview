@@ -176,5 +176,8 @@ every boundary turns red.
 - **Import Tracks**: copies the guidance lines of another field into this one.
 - **Delete Applied Area**: clears the worked area, after asking. It cannot be
   undone.
-- **Field Builder**, **Tracks** and **Tram** tabs: guidance lines and tram
-  lines, which have pages of their own, still being written.
+- **Field Builder**, **Tracks** and **Tram** tabs: see
+  [Guidance lines](/software/guidance-lines/) and
+  [Tram lines](/software/tram-lines/).
+- **Recorded Path**, **Offset Fix** and the flags: see
+  [More field tools](/software/more-field-tools/).
