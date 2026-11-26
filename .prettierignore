@@ -1,0 +1,15 @@
+# Ignore Paths
+/dist
+/.astro
+/public/favicons
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.pdf
+*.woff
+*.woff2
+*.ttf 

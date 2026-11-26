@@ -1,0 +1,122 @@
+---
+title: AgOpenWeb Documentation
+description: Open-source GPS autosteer and implement control for your farm equipment, built from off-the-shelf components and community-designed hardware.
+template: splash
+hero:
+  title: Autosteer you can build yourself
+  tagline: AgOpenWeb is open-source GPS guidance and autosteer that runs in a browser, on a tablet or computer. Affordable, centimetre-accurate, and built from off-the-shelf parts with the help of a worldwide farming community.
+  image:
+    file: ../../assets/logo.png
+    alt: AgOpenWeb
+  actions:
+    - text: Get started
+      link: /getting-started/
+      icon: right-arrow
+    - text: Hardware quickstart
+      link: /hardware/hardware-quickstart-guide/
+      variant: secondary
+    - text: Download AgOpenWeb
+      link: https://github.com/AgOpenGPS-Official/AgOpenWeb/releases
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+:::danger[Use at your own risk]
+AgOpenWeb is an open-source community project, not a certified product.
+Building and using autosteer on real machinery is at your own risk. Read
+[Safety and disclaimer](/safety/) before you start.
+:::
+
+## Where do you want to start?
+
+<CardGrid>
+  <Card title="Understand" icon="open-book">
+    Learn how the parts fit together, and which level of
+    automation suits your farm.
+
+    [Getting started guide →](/getting-started/)
+
+  </Card>
+  <Card title="Build the hardware" icon="setting">
+    Choose a steering option, source the boards and components, then assemble,
+    configure and install your kit.
+
+    [Hardware guide →](/hardware/)
+
+  </Card>
+  <Card title="Install the software" icon="laptop">
+    Install AgOpenWeb, connect to your hardware and set up RTK corrections.
+
+    [Software guide →](/software/)
+
+  </Card>
+</CardGrid>
+
+## Software
+
+<CardGrid>
+  <LinkCard
+    title="Download AgOpenWeb"
+    description="Latest builds on GitHub"
+    href="https://github.com/AgOpenGPS-Official/AgOpenWeb/releases"
+  />
+  <LinkCard
+    title="Rate Control module"
+    description="Variable rate and section control"
+    href="https://github.com/AgOpenGPS-Official/Rate_Control"
+  />
+</CardGrid>
+
+## Repositories
+
+- [**AgOpenWeb**](https://github.com/AgOpenGPS-Official/AgOpenWeb): The app
+  that runs on your in-cab computer
+- [**Hardware & Firmware**](https://github.com/AgOpenGPS-Official/Boards): PCB
+  designs, firmware, and schematics, shared with AgOpenGPS
+
+## Community & support
+
+<CardGrid>
+  <Card title="Discourse forum" icon="discourse">
+    Long-form discussions, questions, and build logs.
+
+    [discourse.agopengps.com →](https://discourse.agopengps.com)
+
+  </Card>
+  <Card title="Telegram group" icon="telegram">
+    Fast community help from farmers and builders around the world.
+
+    [Join the group →](https://t.me/AgOpenGPSInternational)
+
+  </Card>
+  <Card title="YouTube" icon="youtube">
+    Tutorials and build videos.
+
+    [AgOpenGPS on YouTube →](https://www.youtube.com/@AgOpenGPS)
+
+  </Card>
+</CardGrid>
+
+## Want to contribute?
+
+AgOpenWeb is community built. You can help by:
+
+- Improving this documentation: every page has an **Edit page** link at the
+  bottom
+- Submitting issues or fixes to the
+  [codebase](https://github.com/AgOpenGPS-Official/AgOpenWeb)
+- Sharing your own build tips and guides on
+  [Discourse](https://discourse.agopengps.com)
+
+## Other cool open-source ag-related projects
+
+- [Run your own RTK base station on a Raspberry Pi](https://github.com/Stefal/rtkbase)
+- [AgIsoStack++ - bringing ISOBUS implement control to the world of Agriculture](https://agisostack.com/)
+- [AgOpenGPS Tools - various tools related to AgOpenGPS](https://github.com/lansalot/AgOpenGPS-Tools)
+- [Controlling a Bogballe spreader with AOG](https://github.com/charlesquick/AOG-Bogballe-Bridge)
+- [Awesome "tractor simulator" that works with AOG!](https://github.com/GNSS-Stylist/AgOpenGPSSimPoC)
+- [Open Weed Locator](https://github.com/geezacoleman/OpenWeedLocator)
+- [FarmHack - A worldwide community of farmers that build and modify their own tools](https://farmhack.org/tools)
+- [Gathering for Open Agricultural Technology (GOAT)](https://goatech.org/)

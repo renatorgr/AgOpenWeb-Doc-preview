@@ -1,0 +1,8 @@
+# Build output
+/dist/
+/.astro/
+/node_modules/
+
+# Other
+.DS_Store
+pnpm-lock.yaml
